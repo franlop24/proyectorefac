@@ -9,7 +9,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $passwordp = $_POST['passwordp'];
     $passwordd = $_POST['passwordd'];
 
-
     /*errores*/
     $errores = '';
 
@@ -37,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
         $passwordp =hash('sha512', $passwordp);
         $passwordd =hash('sha512', $passwordd);
-        
+
         /*comprobacion de contraseñas*/
         if ($passwordp != $passwordd) {
             $errores .= '<li>Las contraseñas no son iguales</li>';

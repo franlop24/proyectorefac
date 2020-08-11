@@ -1,7 +1,6 @@
 <?php
 
-define('RUTA', 'http://localhost/refaccionariaTORIZ1/');
-
+define('RUTA', 'http://localhost/proyecto/');
 
 $bd_config = array(
 	'basedatos' => 'refaccionariatoriz',

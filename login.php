@@ -21,14 +21,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     SELECT * FROM usuario WHERE usuario = :usuario AND pass = :passwordp'
 );
     $statement->execute(array(
-        ':usuario' => $usuario, 
+        ':usuario' => $usuario,
         ':passwordp' => $passwordp
     ));
 
     $resultado = $statement->fetch();
     if ($resultado == false) {
         $_SESSION['usuario'] = $usuario;
-        header('Location: admin/indexadmin.php');
+        header('Location: admin/');
     } else {
         $errores .= '<li> Datos incorrectos</li>';
     }

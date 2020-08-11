@@ -17,7 +17,7 @@
             <ul>
                 <a href="contenido.php"><li>Inicio</li></a>
                 <a href="productos.php"><li>Ingresa productos</li></a>
-                <a href="nissan.php"><li>Nissan</li></a>
+                <!-- <a href="nissan.php"><li>Nissan</li></a>
                 <a href="volkswagen.php"><li>Volkswagen</li></a>
                 <a href="ford.php"><li>Ford</li></a>
                 <a href="ibiza.php"><li>Ibiza</li></a>
@@ -25,10 +25,9 @@
                 <a href="KIA.php"><li>KIA</li></a>
                 <a href="chevrolet.php"><li>Chevrolet</li></a>
                 <a href="contacto.php"><li>Contacto</li></a>
-                <a href="ubicacion.php"><li>Ubicación</li></a>
+                <a href="ubicacion.php"><li>Ubicación</li></a> -->
             </ul>
         </div>
-
 
         <img class="logo" src="../img/logo.png" alt="">
            <div class="contenedor-texto">
@@ -44,10 +43,8 @@
                         <button type="submit" class="icono fa fa-search" id="icono"></button>
                     </form>
                 </div>
-
-
                <i class="carrito fa fa-shopping-cart"></i>
            </div>
-           
+
         </div>
     </header>
