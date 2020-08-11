@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	background: url('../img/fondo.jpg') rgba(18, 2, 73, 0.815);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contenedorr {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 5px;
+    
+}
+img.logo{
+    float: left;
+    margin-right: auto;
+    height: 100px;
+    margin: 30px 5px;
+}
+header{
+    background:#010328;
+    
+}
+
+header .contenedorr-texto{
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px 140px;
+
+}
+
+header .contenedorr-texto .texto{
+    border: none;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+div.reset {
+    clear: both;
+}
+
+header .contenedorr-texto .texto .nombre{
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 500;
+    margin: 0; 
+}
+
+header .contenedorr-texto .texto .profesion{
+    font-size: 25px;
+    line-height: 25px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color:#B8711B;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 500px;
+	width: 90%;
+	margin: 50px auto;
+}
+
+.titulo {
+	font-weight: 500;
+	color: #B8711B;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+	
+}
+
+.border {
+	border: none;
+	margin-bottom: 5px; 
+	border-top:10px solid #B8711B;
+	background: none;
+	color:none;
+}
+
+.formulario {
+	background: #ffffff;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.formulario .form-group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+    font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+    vertical-align: top;
+    border: 2px solid rgb(199, 199, 196);
+    border-radius: 3px ;
+    display: inline-block;
+    padding: 13px 50px;
+}
+
+
+.formulario .icono {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	max-height: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #c8c8c8;
+	display: inline-block;
+	color:#6b6b6b;
+	vertical-align: top;
+}
+
+.formulario .icono.izquierda {
+	margin-right: 4px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-ms-border-radius: 3px 0 0 3px;
+	-o-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .usuario,
+.formulario .password {
+	width: calc(100% - 52px);
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .error ul {
+	padding: 0 15px;
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;	
+}
+
+.formulario .submit-btn {
+	padding: 15px;
+	text-align: center;
+	width: 440px;
+	max-height: 48px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #B8711B;
+    display: block;
+    font-style: normal;
+	color:#fff;
+	background: #B8711B;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+}
+
+.texto-registrate {
+    text-align: center;
+}
+
+.texto-registrate a {
+	display: block;
+	font-size: 18px;
+}
