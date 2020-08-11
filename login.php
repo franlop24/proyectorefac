@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     $statement = $conexion->prepare('
-    SELECT * FROM clientes WHERE usuario = :usuario AND pass = :passwordp'
+    SELECT * FROM usuario WHERE usuario = :usuario AND pass = :passwordp'
 );
     $statement->execute(array(
         ':usuario' => $usuario, 

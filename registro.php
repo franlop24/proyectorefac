@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         }
 
         /*consulta de comprobacion de usuarios*/
-        $statement = $conexion->prepare('SELECT * FROM clientes where usuario = :usuario LIMIT 1');
+        $statement = $conexion->prepare('SELECT * FROM usuario where usuario = :usuario LIMIT 1');
         $statement->execute(array(':usuario' => $usuario));
         $resultado = $statement->fetch();
 
@@ -46,7 +46,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     /*insertar al usuario en la base de datos y se redirige al inicio de sesion*/
     if($errores == ''){
-        $statement = $conexion->prepare('INSERT INTO clientes (id, usuario, pass) VALUES (null, :usuario, :pass)');
+        $statement = $conexion->prepare('INSERT INTO usuario (id, usuario, pass) VALUES (null, :usuario, :pass)');
         $statement->execute(array(
             ':usuario' => $usuario,
             ':pass' => $passwordp
